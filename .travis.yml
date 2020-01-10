@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- stable
+deploy:
+  provider: heroku
+  api_key:
+    secure: 111/C/z/MboC/ng7jtQWcAH/6Osmlf+m+YD/I/S0wbM6HDXbosOcd4CeZoIiquwsWOX1rNxQCS47O7/F9NwRVH8PUZ2Z3rKFIB5KIDT3u2axvyS5Aqd+c2bCGD1kBp/oiSw9lucAepeYjE9HQFDdX12s0E0obR3DupTGWkWEVXZSbgx3t6C1Qva5zjzW18y8tR48ZIjpWB+tTv3QfNbN5wD0RKGszgh+ZlhTP3ebpC4iiXgCGNGmtwaR4adJmfK5dTZ50+uZZ3s/AlQrwX/971gSDyDbDWgYp9BJAhMl0SYcgqXY+KKxco8Fv4qTFAkuS4JPoXtuxNdmjTCNgmUglGmjKNWhQ75fhVUKQA7iTunAScqle7a5MIGMb52lhBkSaFD+6UeokpKkNUIXsaZJuUIyxrYLJ1iejSh5w5EyBxVRNp1HCDPII8HQJBejyJhTFpKOXLVfHxLCz8zkDecn9O8QAP3xQle9IyblwM2yVVRzyvUD3NVXM1J8T0RQ2ak5HZEHKL4wcEZGFOVtmR/ZuxleH8m1g07YezsBERVCsieYbOBm7dsWervp6m7H9wwlBWKdh4//GF9/X88zGxyGsgDI7hTGcquFDX4mnu7noakdUw9cx+bLutCrrvKCRMtgCXSip7g7bXX5liFBEl7FkTh1Fq/E8RmkPd4MR+uCv3w=
+  app: powerful-cliffs-45491
+  on:
+    repo: udugam/travis_github_heroku
